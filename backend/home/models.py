@@ -41,3 +41,8 @@ class Testing(models.Model):
 class TES(models.Model):
     "Generated Model"
     ad = models.BigIntegerField()
+
+
+class Hello(models.Model):
+    "Generated Model"
+    ads = models.BigIntegerField()
