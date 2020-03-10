@@ -46,3 +46,9 @@ class TES(models.Model):
 class Hello(models.Model):
     "Generated Model"
     ads = models.BigIntegerField()
+
+
+class AnotherTest(models.Model):
+    "Generated Model"
+    my_id = models.BigIntegerField()
+    name = models.CharField(max_length=256,)
